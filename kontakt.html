@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+
+<html lang="de">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<title>Kontakt · Butz-Bauwelt</title>
+<meta content="Kontakt &amp; Anfrage – Platzhalterformular." name="description"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="./assets/css/main.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+</head>
+<body class="page-contact">
+<header class="header">
+<div class="wrap headerRow">
+<a class="brand" href="index.html">
+<div class="mark mark--logo"><img alt="Butz-Bauwelt Logo" class="brandLogo" onerror="this.style.display='none'; this.parentElement.textContent='B';" src="./assets/img/logo-butz.jpg"/></div>
+<div>
+<span>Butz-Bauwelt</span>
+<small>Wohnbau · Gewerbebau · Sanierung</small>
+</div>
+</a>
+<nav aria-label="Navigation" class="nav">
+<a href="index.html">Start</a>
+<a href="leistungen.html">Leistungen</a>
+<a href="vr-3d.html">VR/3D</a>
+<a href="konfigurator.html">Konfigurator</a>
+<a href="ueber-uns.html">Über uns</a>
+<a href="kontakt.html">Kontakt</a>
+</nav>
+<div style="display:flex; gap:10px; align-items:center">
+<a class="btn btn--brand" href="kontakt.html">Info-Paket</a>
+<button aria-controls="mnav" aria-expanded="false" aria-label="Menü öffnen" class="burger" data-burger="" type="button">
+<span></span><span></span><span></span>
+</button>
+</div>
+</div>
+<div class="mobile" data-mobile="" data-open="false" id="mnav">
+<div class="wrap mobileInner">
+<a href="index.html">Start</a>
+<a href="leistungen.html">Leistungen</a>
+<a href="vr-3d.html">VR/3D</a>
+<a href="konfigurator.html">Konfigurator</a>
+<a href="ueber-uns.html">Über uns</a>
+<a href="kontakt.html">Kontakt</a>
+</div>
+</div>
+</header>
+<main>
+<section class="hero" style="min-height:54vh">
+<div aria-hidden="true" class="heroMedia heroMedia--contact"></div>
+<div class="wrap" style="padding:68px 0 40px">
+<div class="badge">Kontakt</div>
+<div style="height:14px"></div>
+<h1>Info-Paket oder Termin.</h1>
+<div style="height:14px"></div>
+<p class="lead" style="color:rgba(255,255,255,.78)">
+        Formular ist Demo (kein Versand). Sag mir, ob statisch (PHP) oder WordPress, dann baue ich’s „echt“.
+      </p>
+</div>
+</section>
+<section class="section section--paper">
+<div class="wrap">
+<div class="formWrap">
+<div class="formCard">
+<div class="pad">
+<div class="kicker">Anfrage</div>
+<div style="height:10px"></div>
+<h2>Erzähl uns kurz, was du vorhast.</h2>
+<div style="height:10px"></div>
+<p class="small">
+            Je genauer du bist, desto schneller bekommst du ein passendes Feedback. Das dauert wirklich nur 1–2 Minuten.
+          </p>
+<div class="note small">
+            Hinweis: Die Website wird über GitHub Pages veröffentlicht. Das Formular ist daher aktuell ein <b>Demo</b> (kein echter Versand).
+            Wenn du willst, bauen wir den Versand sauber nach (z.B. Formspree / Netlify Forms / Backend).
+          </div>
+<form onsubmit="event.preventDefault(); alert('Platzhalter: Versand nach Hosting-Setup.');" style="margin-top:12px">
+<div class="grid2">
+<div>
+<label class="labelText">Name</label>
+<input class="inputLine" placeholder="Max Mustermann" required=""/>
+</div>
+<div>
+<label class="labelText">Telefon</label>
+<input class="inputLine" placeholder="+49 …" required=""/>
+<div class="help">Optional: Für Rückfragen – das spart Ping-Pong per Mail.</div>
+</div>
+</div>
+<div class="stack" style="margin-top:10px">
+<div>
+<label class="labelText">E-Mail</label>
+<input class="inputLine" placeholder="name@beispiel.de" required=""/>
+</div>
+<div class="grid2">
+<div>
+<label class="labelText">Projekt</label>
+<input class="inputLine" placeholder="z.B. EFH, Sanierung, Gewerbe"/>
+</div>
+<div>
+<label class="labelText">Wohnfläche (ca.)</label>
+<input class="inputLine" placeholder="z.B. 160 m²"/>
+</div>
+</div>
+<div>
+<label class="labelText">Kurzbeschreibung</label>
+<input class="inputLine" placeholder="z.B. Keller ja/nein, Stil, Region, Zeitplan …"/>
+<div class="help">Tipp: Wenn du vorher den Kalkulator nutzt, hast du direkt einen Richtwert als Gesprächsbasis.</div>
+</div>
+<div class="checkRow">
+<input id="privacy" type="checkbox"/>
+<label class="small" for="privacy">
+                  Ich habe die <a href="datenschutz.html">Datenschutzerklärung</a> gelesen.
+                </label>
+</div>
+<div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:6px">
+<button class="btn btn--brand" type="submit">Anfrage vorbereiten</button>
+<a class="btn btn--ink" href="konfigurator.html">Erst Kalkulator</a>
+<a class="btn btn--ghost" href="leistungen.html">Leistungen</a>
+</div>
+<div class="help">
+                Alternativ (bis Versand aktiv ist): schreib uns einfach direkt per Mail/WhatsApp (Platzhalter-Daten setzen wir später ein).
+              </div>
+</div>
+</form>
+</div>
+</div>
+<aside class="sideCard">
+<div class="pad">
+<div class="badge">Schneller zum Ziel</div>
+<div style="height:12px"></div>
+<b style="font-size:1.25rem">Warum sich das Ausfüllen lohnt</b>
+<div class="small" style="margin-top:8px">Du bekommst schneller ein klares Feedback, wenn wir die Basisdaten haben.</div>
+<div class="sideList">
+<div class="sideItem"><div class="ic">01</div><div><b>Richtwert &amp; Ablauf</b><div class="small">Kalkulator + nächste Schritte (Planung → VR → Bau).</div></div></div>
+<div class="sideItem"><div class="ic">02</div><div><b>VR/3D Termin</b><div class="small">Wenn du willst: kurzer VR-Slot zum Abgleichen.</div></div></div>
+<div class="sideItem"><div class="ic">03</div><div><b>Saubere Einschätzung</b><div class="small">Mit Fläche, Typ &amp; Extras wird’s direkt konkreter.</div></div></div>
+</div>
+<div class="hr"></div>
+<div class="small">Direkt weiter:</div>
+<div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:10px">
+<a class="btn btn--brand" href="konfigurator.html">Kalkulator</a>
+<a class="btn btn--ghost" href="vr-3d.html">VR/3D</a>
+</div>
+</div>
+</aside>
+</div>
+</div>
+</section>
+</main>
+<footer class="footer">
+  <div class="wrap footerGrid">
+    <div class="footerCol">
+      <div class="brandRow">
+        <div class="mark mark--logo"><img alt="Butz-Bauwelt Logo" class="brandLogo" onerror="this.style.display='none'; this.parentElement.textContent='B';" src="./assets/img/logo-butz.jpg"/></div>
+        <div>
+          <b>Butz-Bauwelt</b>
+          <div class="small">Wohnbau · Gewerbebau · Sanierung</div>
+        </div>
+      </div>
+      <div class="small" style="margin-top:10px">
+        © 2026 · Butz-Bauwelt GmbH · <a href="impressum.html">Impressum</a> · <a href="datenschutz.html">Datenschutz</a>.
+      </div>
+    </div>
+
+    <div class="footerCol">
+      <div class="kicker">Navigation</div>
+      <div class="footerLinks">
+        <a href="index.html">Start</a>
+        <a href="leistungen.html">Leistungen</a>
+        <a href="vr-3d.html">VR/3D</a>
+        <a href="konfigurator.html">Konfigurator</a>
+        <a href="ueber-uns.html">Über uns</a>
+        <a href="kontakt.html">Kontakt</a>
+      </div>
+    </div>
+
+    <div class="footerCol">
+      <div class="kicker">Rechtliches</div>
+      <div class="footerLinks">
+        <a href="impressum.html">Impressum</a>
+        <a href="datenschutz.html">Datenschutz</a>
+      </div>
+      <div style="height:10px"></div>
+      <a class="btn btn--brand" href="kontakt.html">Info-Paket</a>
+    </div>
+  </div>
+</footer>
+<script defer="" src="./assets/js/app.js"></script>
+</body>
+</html>
