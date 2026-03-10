@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240" role="img" aria-label="Kalkulator">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8a0f1d" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#0b0d12" stop-opacity="0.10"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="34" y="26" width="172" height="188" rx="0" fill="url(#g)" stroke="rgba(11,13,18,0.22)" stroke-width="2"/>
+  <rect x="54" y="44" width="132" height="44" rx="0" fill="rgba(255,255,255,0.78)" stroke="rgba(11,13,18,0.18)" stroke-width="2"/>
+  <rect x="54" y="104" width="132" height="92" rx="0" fill="rgba(255,255,255,0.84)" stroke="rgba(11,13,18,0.18)" stroke-width="2"/>
+
+  <!-- display lines -->
+  <rect x="64" y="56" width="96" height="8" fill="rgba(11,13,18,0.18)"/>
+  <rect x="64" y="70" width="74" height="8" fill="rgba(11,13,18,0.12)"/>
+
+  <!-- buttons -->
+  <g fill="rgba(138,15,29,0.14)" stroke="rgba(138,15,29,0.30)" stroke-width="2">
+    <rect x="64" y="116" width="28" height="22" rx="0"/>
+    <rect x="106" y="116" width="28" height="22" rx="0"/>
+    <rect x="148" y="116" width="28" height="22" rx="0"/>
+
+    <rect x="64" y="150" width="28" height="22" rx="0"/>
+    <rect x="106" y="150" width="28" height="22" rx="0"/>
+    <rect x="148" y="150" width="28" height="22" rx="0"/>
+
+    <rect x="64" y="184" width="70" height="22" rx="0"/>
+    <rect x="148" y="184" width="28" height="22" rx="0"/>
+  </g>
+
+  <!-- subtle shine -->
+  <path d="M44 36h14L72 26h-14z" fill="rgba(255,255,255,0.35)"/>
+</svg>
